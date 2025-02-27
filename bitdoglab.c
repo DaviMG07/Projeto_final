@@ -219,6 +219,7 @@
                  // Estado PLANTIO: simula o crescimento da grama
                  grama.color = urgb_u32(0, 7, 0);
                  sleep_ms(2000);
+                 state = IRRIGACAO;
                  break;
  
              case IRRIGACAO: {
